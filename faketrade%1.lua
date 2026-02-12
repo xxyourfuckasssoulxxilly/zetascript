@@ -233,6 +233,8 @@ local CONFIG = {
     },
     AUTO_CHAT_DELAY = 2,
     VERIFIED_FRIENDS = {
+        'Cammyxboba',
+        'Jesseraen',
         'Agusmareborn',
         'Kellyvault',
         'J3llynoah',
