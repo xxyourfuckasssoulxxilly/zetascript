@@ -192,6 +192,10 @@ local CONFIG = {
     SPAWN_FAKE_PLAYER_WITH_RANDOM_PET = false,
     FAKE_PLAYER_ACCEPT_TRADE_REQUEST = 2,
     CHAT_MESSAGES = {
+        'You fat whore',
+        'U fucking slow ass motherfucker add',
+        'you fat fucking pig',
+        'Add u fat bitch',
         'Can i spin this',
         'Win or lose',
         'I am followed btw',
