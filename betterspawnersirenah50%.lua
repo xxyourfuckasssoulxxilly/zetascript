@@ -814,7 +814,7 @@ for _, wrapper in pairs(ClientData.get("pet_char_wrappers")) do
 end
 
 local screenGui = Instance.new("ScreenGui")
-screenGui.Name = "blueprint_lua"
+screenGui.Name = "zetascriptsgui"
 screenGui.ResetOnSpawn = false
 screenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 screenGui.IgnoreGuiInset = false
@@ -859,7 +859,7 @@ local title = Instance.new("TextLabel")
 title.Size = UDim2.new(1, 0, 0, 20)
 title.Position = UDim2.new(0, 0, 0, 4)
 title.BackgroundTransparency = 1
-title.Text = "Zeta scripts"
+title.Text = "ZetaScripts (last4zeta on tt)"
 title.Font = Enum.Font.GothamBold
 title.TextSize = 12
 title.TextColor3 = Color3.fromRGB(235, 240, 255)
@@ -1441,5 +1441,3 @@ nameInput:GetPropertyChangedSignal("Text"):Connect(function()
     local isValid = FindPetId(text) ~= nil
     inputGlow.Color = isValid and glowColors.valid or glowColors.invalid
 end)
-
-print("blueprint.lua on discord for scripts. Credits to m0_3a as this script uses some functions from his script!")
